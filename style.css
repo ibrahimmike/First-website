@@ -1,0 +1,136 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.left{
+position:absolute;
+height:100%;
+width:50%;
+}
+.right{
+    position: absolute;
+    left:70%;
+    margin: 100px 0px 0px 0px;
+   
+}
+.login{
+    position: absolute;
+    left:95%;
+    margin: 30px 0px 0px 0px;
+    color:grey;
+ font-family: Arial, Helvetica, sans-serif;
+text-decoration-line: none;
+
+
+   
+  
+}
+p{
+    color:grey;
+    margin:10px;
+    
+}
+.line1{
+    margin:10px 10px 10px 15px;
+    width: 100%;
+    border-style:none;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    color: grey;
+
+}
+.phone{
+    margin:10px 10px 10px 15px;
+    width: 100%;
+    border-style:none;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    color: grey;
+    height:50%;
+    font-size: 1rem;
+
+}
+.next{
+    background-color: #3232ff;
+    color:white;
+    width:100%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius:30px;
+    height:40px;
+    margin:50px 0px 0px 0px;
+    border-style:none;
+}
+.olga{
+    text-decoration-line: none;
+    color:blue;
+}
+h1{
+    color: black;
+}
+.tabledata1{
+    padding:0px 30px 0px 0px;
+    width:50%;
+}
+.tabledata{
+    padding:0px 0px 0px 30px;
+    width:50%;
+}
+.fp{
+    color:grey;
+    font-size: .75rem;
+    text-decoration-line: none;
+    padding:10px 10px 0px 180px;
+    
+    
+
+}
+
+}
+.btl{
+    color:blue;
+    font-size: 1rem;
+    align-content: center;
+    text-decoration-line: none;
+    padding:10px 100px 10px 100px;
+}
+.gli{
+    
+    
+    width:100%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius:30px;
+    height:40px;
+    margin:30px 0px 0px 0px;
+    border-style:none;
+    margin:0px;
+    padding:0px;
+}
+@media screen and (max-width:959px){
+    .left{
+        display:none;
+        width:0%;
+        height:0%;
+
+        }
+    .right{
+  
+
+left:0%;
+  margin:10px;
+   
+}
+.login{
+   margin:10px;
+   padding: 0px;
+   left: 80%;
+   
+}
